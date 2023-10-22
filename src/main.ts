@@ -10,5 +10,5 @@ console.log(resolved.theme.colors.red)
 // no errors
 console.log(resolved.theme.width)
 
-// runtime error:
+// runtime error: Cannot read properties of undefined (reading 'colors')
 console.log(resolved.theme.extend.colors.cerulean)
